@@ -1,0 +1,164 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+
+<div class="container">
+    <div class="row">
+      <div class = "col">
+          <div class="container">
+              <div class="row">
+                <div class = "col">
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
+                          <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">PROS</h5>
+                          </div>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                          <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">Easy Ui Testing</h5>
+                          </div>
+                          <p class="mb-1">Snapshot Testing Allows for a easy of use way to test your UI files.</p>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                          <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">Built with Jasmine in mind</h5>
+                          </div>
+                          <p class="mb-1">Jest was created to act ontop of Jasmine and as such, most of the code is similar, if not identicle, to Jasmine.</p>
+                        </a>
+                        <a href="https://www.xfive.co/blog/testing-angular-faster-jest/" class="list-group-item list-group-item-action flex-column align-items-start">
+                            <div class="d-flex w-100 justify-content-between">
+                              <h5 class="mb-1">Runs Fast</h5>
+                            </div>
+                            <p class="mb-1">"2.5x faster than with Karma".</p>
+                          </a>
+                      </div>
+                </div>
+                <div class = "col">
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
+                          <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">CONS</h5>
+                          </div>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                          <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">Built for React</h5>
+                          </div>
+                          <p class="mb-1">Jest, the platform snapshot testing was built on, was created for React and not Angular.</p>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                          <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">Little Documentation</h5>
+                          </div>
+                          <p class="mb-1">As such There is very litle when it comes to documentation for implementing jest in angular. And the main sites documentation is soley for react.</p>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                            <div class="d-flex w-100 justify-content-between">
+                              <h5 class="mb-1">In Depth Analysis</h5>
+                            </div>
+                            <p class="mb-1">You analyse your failing html snapshots in depth, and not just accept the changes made.</p>
+                          </a>
+                        
+                      </div>
+                    
+                </div>
+              </div>
+          </div>
+      </div>
+      <div class="col">
+        <h3>This is What a the current itteration of the front page looks like as a snap shot:</h3>
+<div class="card example-1 scrollbar-dusty-grass">
+    <div class="card-body">
+<pre>
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppComponent should match the snapshot 1`] = `
+&lt;div
+  id="root1"
+  ng-version="6.0.5"
+&lt;
+  &lt;link
+    crossorigin="anonymous"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+    integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    rel="stylesheet"
+  /&lt;
+  &lt;nav
+    class="navbar navbar-expand-lg navbar-light bg-light"
+  &lt;
+    &lt;a
+      class="navbar-brand"
+      href="#"
+    &lt;
+      Snap-Shot
+    &lt;/a&lt;
+    &lt;button
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+      class="navbar-toggler"
+      data-target="#navbarSupportedContent"
+      data-toggle="collapse"
+      type="button"
+    &lt;
+      &lt;span
+        class="navbar-toggler-icon"
+      /&lt;
+    &lt;/button&lt;
+    &lt;div
+      class="collapse navbar-collapse"
+      id="navbarSupportedContent"
+    &lt;
+      &lt;ul
+        class="navbar-nav mr-auto"
+      &lt;
+        &lt;li
+          class="nav-item active"
+        &lt;
+          &lt;a
+            class="nav-link"
+            href=""
+          &lt;
+            Home 
+            &lt;span
+              class="sr-only"
+            &lt;
+              (current)
+            &lt;/span&lt;
+          &lt;/a&lt;
+        &lt;/li&lt;
+        &lt;li
+          class="nav-item"
+        &lt;
+          &lt;a
+            class="nav-link"
+            href="/about"
+          &lt;
+            About
+          &lt;/a&lt;
+        &lt;/li&lt;
+        &lt;li
+          class="nav-item"
+        &lt;
+          &lt;a
+            class="nav-link disabled"
+            href="#"
+          &lt;
+            Disabled
+          &lt;/a&lt;
+        &lt;/li&lt;
+      &lt;/ul&lt;
+    &lt;/div&lt;
+  &lt;/nav&lt;
+  &lt;router-outlet /&lt;
+&lt;/div&lt;
+`;
+      </pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+

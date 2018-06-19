@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="C:\Users\ZXJ8CE1\code\snapshotTestingInAngular\src\app\video\video.component.spec.ts">
+    <testCase name="VideoComponent should create" duration="195"/>
+  </file>
+  <file path="C:\Users\ZXJ8CE1\code\snapshotTestingInAngular\src\app\about\about.component.spec.ts">
+    <testCase name="AboutComponent should create" duration="317"/>
+  </file>
+  <file path="C:\Users\ZXJ8CE1\code\snapshotTestingInAngular\src\app\app.component.spec.ts">
+    <testCase name="AppComponent should create the app" duration="347"/>
+    <testCase name="AppComponent should match the snapshot" duration="128"/>
+  </file>
+  <file path="C:\Users\ZXJ8CE1\code\snapshotTestingInAngular\src\app\info\info.component.spec.ts">
+    <testCase name="InfoComponent should create" duration="88"/>
+  </file>
+  <file path="C:\Users\ZXJ8CE1\code\snapshotTestingInAngular\src\app\app-routing.module.spec.ts">
+    <testCase name="AppRoutingModule should create an instance" duration="4"/>
+  </file>
+</testExecutions>
